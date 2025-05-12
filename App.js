@@ -1,10 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/Stack';
 import CadastroScreen from './screens/Cadastro';
 import ListaScreen from './screens/Lista';
 import { NomesProvider } from './components/NomesContext';
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
