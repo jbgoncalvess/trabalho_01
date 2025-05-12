@@ -1,5 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/Stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import CadastroScreen from './screens/Cadastro';
 import ListaScreen from './screens/Lista';
 import { NomesProvider } from './components/NomesContext';
